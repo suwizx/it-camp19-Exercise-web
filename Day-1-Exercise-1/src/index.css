@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app {
+  width: 24rem;
+}
+
+.app > * {
+  margin-top: 0.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Class สำหรับกล่อง Input */
+.textField {
+  padding: 5px;
+  box-shadow: 2px 2px 2px #e5e7eb;
+  border-radius: 5px;
+}
+
+/* Class สำหรับปุ่ม */
+.button {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Class สำหรับเมื่อปุ่มถูกกด */
+.button:active {
+  
+}
+
+/* Class สำหรับปุ่ม Add (ตกแต่งสี) */
+.button-add {
+  color: white;
+  background-color: green;
+}
+
+/* Class สำหรับเมื่อเอาเมาส์ชี้ปุ่ม Add */
+.button-add:hover {
+
+}
+
+.button-delete{
+  color: white;
+  background-color: red;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 1px;
+}
+
+.item{
+  padding: 5px;
+  box-shadow: 2px 2px 2px #e5e7eb;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+.checkbox {
+  margin-right: 5px;
+  padding: 5px;
+}

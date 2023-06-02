@@ -1,0 +1,4 @@
+backend/pb_data/*
+backend/pocketbase
+backend/.DS_Store
+/**/node_modules
